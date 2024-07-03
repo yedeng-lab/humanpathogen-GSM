@@ -1,4 +1,3 @@
-# humanpathogen-GSM
 # Detecting Human Pathogenic Bacteria GSM in Environmental Metagenomics
 
 The characteristic sequences of human pathogenic bacteria are provided in FASTA format, along with an example workflow for alignment and statistics against environmental shotgun metagenomic sequences.
