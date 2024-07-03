@@ -108,7 +108,7 @@ Count the matching numbers between GSM and samples, and correct them according t
 --outdir: File where the output results are stored.
 
 ``` 
-Rscript stat_and_std_0410.R --rdir results --thr 2 --speid speid.txt --outdir out --std stdnum.txt
+Rscript stat_and_std_0508.R --rdir results --thr 2 --speid speid.txt --outdir out --std stdnum.txt
 ``` 
 
 Below is an example of a result file:
