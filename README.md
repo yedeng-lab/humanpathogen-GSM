@@ -86,7 +86,7 @@ for i in `seq 1 10`;do
 for j in your_sample_list ;do
 
 mmseqs easy-search $your_dir/gsmfa/gsmset${i}.fa $your_dir/your_R1_fastq ./results/${j}_1_set${i}.out ./results/tmp --search-type 3 --min-aln-len 50 --min-seq-id 1 --threads 32
-mmseqs easy-search $your_dir/gsmfa/gsmset${i}.fa $your_dir/your_R2_fastq ./results/${j}_1_set${i}.out ./results/tmp --search-type 3 --min-aln-len 50 --min-seq-id 1 --threads 32
+mmseqs easy-search $your_dir/gsmfa/gsmset${i}.fa $your_dir/your_R2_fastq ./results/${j}_2_set${i}.out ./results/tmp --search-type 3 --min-aln-len 50 --min-seq-id 1 --threads 32
 
 done
 done 
